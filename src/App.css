@@ -1,0 +1,27 @@
+.Home{
+  position: relative;
+  max-width: 100vw;
+  min-height: 100vh;
+  color: white;
+  padding: 12px;
+  flex-direction: column;
+}
+.description-section{
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 06px;
+  margin-bottom: 08px;
+}
+.description-section div{
+  font-size: 22px;
+  line-height: 2.0;
+  width: 100%;
+}
+.description-section div span{
+  color: teal;
+}

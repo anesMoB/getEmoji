@@ -1,0 +1,46 @@
+.carousel-container {
+  position: relative;
+  width: 100%;
+  min-height: 40px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 08px;
+}
+
+.carousel-track {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+}
+
+.item-wrapper {
+  display: flex;
+  flex-shrink: 0;
+
+}
+
+.item {
+  transition: scale 0.2 ease;
+  border: 0.5px solid white;
+  border-radius: 12px;
+  padding: 06px 10px;
+}
+
+.item:hover {
+  scale: 1.05;
+  background-color: #ffffff46;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  
+}

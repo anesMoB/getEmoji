@@ -1,0 +1,36 @@
+.groupeEmojis {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+}
+
+.groupeEmojis .emoji {
+    border: 0.1px double white;
+    font-size: 48px;
+        cursor: grab;
+
+}
+
+details summary {
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+details {
+    margin: 12px 0;
+    padding: 4px 10px;
+
+}
+
+details[open] .groupeEmojis {
+    padding-top: 10px;
+}
+
+details[open] {
+    border-color: #667eea;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2);
+}
