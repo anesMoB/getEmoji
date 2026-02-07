@@ -91,7 +91,7 @@
     font-size: 48px;
 }
 .emojiData .emoji{
-    cursor: pointer;
+    cursor: grab;
 }
 .groupeEmojis .emoji {
     border: 0.1px double white;
