@@ -55,6 +55,7 @@
     width: 60px;
     height: 40px;
     font-size: 30px;
+
 }
 
 .random::after {
@@ -89,7 +90,9 @@
 .emojiData .emoji {
     font-size: 48px;
 }
-
+.emojiData .emoji{
+    cursor: pointer;
+}
 .groupeEmojis .emoji {
     border: 0.1px double white;
     cursor: grab;
